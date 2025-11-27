@@ -1,4 +1,4 @@
-📌 GARI TECH – Feedback Submission System
+                                               📌 GARI TECH – Feedback Submission System
 
 This project is a redesigned and improved Feedback Experience Page for GARI TECH.
 It provides a modern, responsive UI with light/dark mode and a backend system to store user feedback securely.
@@ -20,11 +20,13 @@ This prototype was developed as part of a final selection assignment.
 📱 Fully responsive (desktop + mobile)
 
 🛠️ Tech Stack
-Layer	Technology Used
-Frontend	HTML, CSS, Bootstrap 5
-Backend	Python Flask
-Database	SQLite
+Layer	        Technology Used
+Frontend	    HTML, CSS, Bootstrap 5
+Backend	        Python Flask
+Database	    SQLite
 Version Control	Git & GitHub
+
+
 📂 Project Structure
 gari-tech-feedback/
 │
@@ -40,6 +42,7 @@ gari-tech-feedback/
     └─ style.css
 
 ⚙️ How to Run the Project
+
 1️⃣ Create a virtual environment
 python -m venv venv
 
