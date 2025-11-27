@@ -1,97 +1,112 @@
-                                               📌 GARI TECH – Feedback Submission System
+# 📌 GARI TECH – Feedback Submission System
 
-This project is a redesigned and improved Feedback Experience Page for GARI TECH.
-It provides a modern, responsive UI with light/dark mode and a backend system to store user feedback securely.
+This project is a redesigned and improved **Feedback Experience Page** for GARI TECH.  
+It provides a modern, responsive UI with dark/light mode and a backend feature to store user feedback securely.
 
-This prototype was developed as part of a final selection assignment.
+This system was developed as part of a **final selection assignment**.
 
-🚀 Features
+---
 
-🎨 Modern UI redesign with professional layout
+## 🚀 Features
 
-🌙 Light/Dark mode toggle
+- 🎨 Modern UI with professional visual design  
+- 🌙 Light/Dark theme toggle  
+- 🧾 Feedback form with input validation  
+- 🗄 Stores submissions in SQLite database  
+- 🔔 Displays success & error alerts  
+- 📱 Fully responsive (Desktop + Mobile)
 
-📬 Feedback form with validation
+---
 
-💾 Feedback stored in SQLite database
+## 🛠 Tech Stack
 
-🔔 Success and error messaging
+| Layer | Technology |
+|-------|-----------|
+| Frontend | HTML, CSS, Bootstrap 5 |
+| Backend | Python (Flask) |
+| Database | SQLite |
+| Version Control | Git & GitHub |
 
-📱 Fully responsive (desktop + mobile)
+---
 
-🛠️ Tech Stack
-Layer	        Technology Used
-Frontend	    HTML, CSS, Bootstrap 5
-Backend	        Python Flask
-Database	    SQLite
-Version Control	Git & GitHub
+## 📁 Project Structure
 
-
-📂 Project Structure
-gari-tech-feedback/
+```
+gari-tech-feedback-system/
 │
-├─ app.py
-├─ feedback.db
-├─ requirements.txt
-├─ README.md
+├── app.py
+├── feedback.db
+├── requirements.txt
+├── README.md
 │
-├─ templates/
-│   └─ feedback.html
+├── templates/
+│   └── feedback.html
 │
-└─ static/
-    └─ style.css
+└── static/
+    └── style.css
+```
 
-⚙️ How to Run the Project
+---
 
-1️⃣ Create a virtual environment
+## ⚙️ How to Run the Project
+
+### 1️⃣ Create a virtual environment
+
+```bash
 python -m venv venv
+```
 
-2️⃣ Activate it
+### 2️⃣ Activate it
 
 Windows:
 
+```bash
 venv\Scripts\activate
+```
 
-3️⃣ Install dependencies
+### 3️⃣ Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-4️⃣ Run the application
+### 4️⃣ Start the server
+
+```bash
 python app.py
+```
 
-5️⃣ View in Browser
+### 5️⃣ Open in Browser
 
-Open:
-
+```
 http://127.0.0.1:5000/
+```
 
-📥 Database Details
+---
 
-User feedback is stored in feedback.db under the table:
+## 🧪 View Saved Feedback (SQLite)
 
-feedback
-
-
-To view entries:
-
+```sql
 SELECT * FROM feedback;
+```
 
-📈 Future Improvements (Optional Enhancements)
+---
 
-Admin dashboard to view submitted feedback
+## ✨ Future Enhancements
 
-Export feedback as CSV or Excel
+- 🔐 Admin login to view submissions  
+- 📩 Email notifications on submission  
+- 📊 Export feedback (CSV/Excel)  
+- 📈 Analytics dashboard (charts + insights)
 
-Authentication system for admin access
+---
 
-Email notification on new submissions
+## 👤 Author
 
-👤 Author
+**Name:** Tanushri B  
+**Purpose:** GARI TECH Final Selection Assignment  
+**Role:** Developer  
 
-Name: Tanushri B
-Role: Developer – Assignment Project
-Purpose: GARI TECH Final Selection Submission
+---
 
-🏁 Status
-
-✔️ Completed and Fully Functional
-This project fulfills all required backend and frontend redesign criteria.
+✔ **Status:** Completed & Working  
